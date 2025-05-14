@@ -30,7 +30,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           # github_token: ${{ secrets.GITHUB_TOKEN }} # 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo
-          personal_token: ${{ SMALLONESAMABLOG }}
+          personal_token: ${{ secrets.SMALLONESAMABLOG }}
           external_repository: smalloneSAMA/smalloneSAMA.github.io # 指定目标仓库
           publish_dir: ./public
           publish_branch: master # 指定发布页面的仓库目标分支
