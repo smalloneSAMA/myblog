@@ -1,0 +1,86 @@
+baseURL = 'https://example.org/'
+
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-cn"
+title = "且听风吟"
+theme = "dream"
+
+# [services]
+
+# disqus评论
+# [services.disqus]
+
+# 小名
+# shortname = ""
+# [services.googleAnalytics]
+# ID = ""
+
+[params]
+# 极简模式
+# zenMode = true
+
+lightTheme = "emerald"
+darkTheme = "forest"
+
+# backgroundImage = "img/global-background.jpg"
+# backgroundImageDark = ""
+
+
+author = "且听风吟"
+
+description = "且听风吟的天地"
+# 头像
+# avatar = "img/avatar.png"
+headerTitle = "且听风吟"
+
+# 座右铭
+motto = "虚怀若谷"
+
+# footerBottomText = ""
+
+# rss = true
+
+# utterancesRepo = ""
+
+# valine = true
+# LEANCLOUD_APP_ID = ""
+# LEANCLOUD_APP_KEY = ""
+
+# waline = true
+# walineServer = ""
+
+# email = ""
+
+siteStartYear = 2016
+
+# favicon = "favicon.ico"
+
+# Syntax highlighting
+# customSyntaxHighlighting = true
+
+# options
+# stickyNav = true
+# reorderNavItems = ["about", "search", "rss", "posts", "categories", "tags"]
+# collapseNavItems = ["posts", "categories", "tags"]
+# noDefaultSummaryCover = true
+# showTableOfContents = true
+# showSummaryCoverInPost = true
+# imageZoomableInPost = true
+# showPrevNextPost = true
+# reorderShares = ["x", "facebook", "whatsapp"]
+
+# [params.navItems]
+
+# [params.twikoo]
+# enabled = true
+# envID = ""
+# region = ""
+# lang = ""
+
+# [params.advanced]
+# customCSS = ["css/custom.css"]
+# customJS = []
+
+# [params.experimental]
+# jsDate = true
+# jsDateFormat = "yyyy年MM月dd日"
