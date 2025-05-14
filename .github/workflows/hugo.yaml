@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: Ubuntu 24.04
+    runs-on: Ubuntu 22.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
