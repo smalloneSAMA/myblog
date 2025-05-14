@@ -33,5 +33,5 @@ jobs:
           personal_token: ${{ SMALLONESAMABLOG }}
           external_repository: smalloneSAMA/smalloneSAMA.github.io # 指定目标仓库
           publish_dir: ./public
-          publish_branch: main # 指定目标分支
+          publish_branch: master # 指定发布页面的仓库目标分支
           cname: xxx.com # 如果你有自定义域名
